@@ -1,0 +1,74 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+configure_dock: true
+dockitems_remove:
+- "App Store"
+- Calendar
+- Launchpad
+- Mail
+- Notes
+- Photos
+- Podcasts
+- Reminders
+- "System Preferences"
+- TV
+dockitems_persist:
+- name: VSCodium
+  path: "/Applications/VSCodium.app/"
+  pos: 1
+- name: Safari
+  path: "/Applications/Safari.app/"
+  pos: 2
+- name: "Google Chrome"
+  path: "/Applications/Google Chrome.app/"
+  pos: 3
+- name: "Brave Browser"
+  path: "/Applications/Brave Browser.app/"
+  pos: 4
+- name: iTerm
+  path: "/Applications/iTerm.app/"
+  pos: 5
+- name: Slack
+  path: "/Applications/Slack.app"
+  pos: 6
+
+homebrew_installed_packages:
+  - gifsicle
+  - git
+  - github/gh/gh
+  - node
+  - nvm
+  - openssl
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - autodesk-fusion360
+  - brave-browser
+  - chromedriver
+  - docker
+  - google-chrome
+  - handbrake
+  - iterm2
+  - jetbrains-toolbox
+  - slack
+  - spotify
+  - vagrant
+  - vscodium
+
+mas_installed_app_ids:
+  - 1333542190  # 1Password
+  - 926036361   # LastPass
+
+
+osx_script: "~/.osx --no-restart"
+
+post_provision_tasks: []
