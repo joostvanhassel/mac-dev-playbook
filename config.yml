@@ -59,6 +59,7 @@ homebrew_cask_apps:
   - handbrake
   - iterm2
   - jetbrains-toolbox
+  - rectangle
   - slack
   - spotify
   - vagrant
