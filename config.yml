@@ -40,7 +40,7 @@ dockitems_persist:
 homebrew_installed_packages:
   - gifsicle
   - git
-  - github/gh/gh
+  - gh
   - node
   - nvm
   - openssl
@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - spotify
   - vagrant
   - vscodium
+  - whatsapp
 
 mas_installed_app_ids:
   - 1333542190  # 1Password
