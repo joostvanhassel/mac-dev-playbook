@@ -60,12 +60,14 @@ homebrew_cask_apps:
   - handbrake
   - iterm2
   - jetbrains-toolbox
+  - microsoft-teams
   - rectangle
   - slack
   - spotify
   - vagrant
   - vscodium
   - whatsapp
+  - zoom
 
 mas_installed_app_ids:
   - 1333542190  # 1Password
